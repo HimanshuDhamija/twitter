@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Twitter" verbose="1" >
+
+    <test name="Tweet test">
+        <parameter name="url" value="https://twitter.com/i/flow/login" />
+        <classes>
+            <class name="test.swym.TweetTest">
+            </class>
+        </classes>
+    </test>
+
+</suite>
